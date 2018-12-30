@@ -8,13 +8,11 @@ Você precisa instalar o plugin FileTranfer e File no seu projeto, após isso im
 **Call :**
 
 ```typescript
-    upload(){
       this.uploadProvider.upload(file, params, loader).then(result=>{
         console.log(result);
       }).catch(reason=>{
         console.warn('Failed!', reason);
       });
-    }
 ```
 
 **Paramêtros do método upload(): :**
