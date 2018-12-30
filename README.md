@@ -6,7 +6,7 @@ Você precisa instalar o plugin FileTranfer e File no seu projeto, após isso im
 
 
 **Call :**
-code(
+`code(
     upload(){
       this.uploadProvider.upload(file, params, loader).then(result=>{
         console.log(result);
@@ -14,7 +14,7 @@ code(
         console.warn('Failed!', reason);
       });
     }
-)
+)`
 
 **Paramêtros do método upload(): :**
 - File: O seu arquivo que foi pego da câmera ou galeria.
