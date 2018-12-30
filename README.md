@@ -15,7 +15,7 @@ Você precisa instalar o plugin FileTranfer e File no seu projeto, após isso im
   });
 ```
 
-**Paramêtros do método upload(): :**
+**Paramêtros do método upload():**
 - File: O seu arquivo que foi pego da câmera ou galeria.
 - Params: Um objeto de parâmetros para enviar para o upload.
 - Loader: Boolean true ou false para criar um loader progress em quanto faz o upload!
