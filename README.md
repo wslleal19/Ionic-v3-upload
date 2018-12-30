@@ -1,5 +1,5 @@
 # Ionic-v3-upload
-Upload provider for ionic v3
+Upload provider para ionic v3
 
 ## Start ##
 Você precisa instalar o plugin FileTranfer e File no seu projeto, após isso importe o provider na page que você irá usá-lo.
